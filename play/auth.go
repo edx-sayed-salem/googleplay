@@ -87,7 +87,7 @@ func (h Header) Set_Agent(head http.Header) {
    head.Set("User-Agent", string(b))
 }
 
-func (h Header) Set_Device(head http.Header, gsf string) error {
+func (h Header) Set_Device(head http.Header) error {
    // id, err := h.Device.ID()
    // if err != nil {
    //    return err
