@@ -17,6 +17,12 @@ var Platforms = map[int]string{
    1: "armeabi-v7a",
    // com.kakaogames.twodin
    2: "arm64-v8a",
+   // TODO: No known apps that require this
+   3: "armeabi",
+   // com.scottgames.fivenightsatfreddys
+   4: "x86_64",
+   // com.google.android.gms
+   5: "mips",
 }
 
 var Phone = Device{
@@ -357,4 +363,3 @@ const android_api = 31
 const gl_es_version = 0x30001
 
 const google_play_store = 82941300
-
