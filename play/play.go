@@ -27,10 +27,47 @@ var Phone = Device{
       "GL_KHR_texture_compression_astc_ldr",
    },
    Library: []string{
-      // com.amctve.amcfullepisodes
-      "org.apache.http.legacy",
-      // com.binance.dev
+      "android.test.mock",
+      "svc",
+      "telephony-ext",
+      "android.hidl.manager-V1.0-java",
+      "lockagent",
+      "voip-common",
+      "services",
+      "ext",
+      "bu",
+      "requestsync",
+      "telephony-common",
+      "com.android.media.remotedisplay",
+      "tcmclient",
+      "content",
+      "locksettings",
+      "bmgr",
+      "uiautomator",
+      "abx",
+      "com.android.mediadrm.signer",
+      "incident-helper-cmd",
+      "uinput",
+      "javax.obex",
+      "org.lineageos.platform",
+      "appwidget",
+      "sm",
+      "hid",
+      "monkey",
+      "ims-common",
+      "com.android.location.provider",
+      "am",
       "android.test.runner",
+      "qcom.fmradio",
+      "telecom",
+      "vr",
+      "framework-graphics",
+      "org.apache.http.legacy",
+      "framework",
+      "android.test.base",
+      "com.android.nfc_extras",
+      "com.android.future.usb.accessory",
+      "android.hidl.base-V1.0-java",
    },
    Feature: []string{
       // app.source.getcontact
@@ -225,4 +262,3 @@ const android_api = 31
 const gl_es_version = 0x30001
 
 const google_play_store = 82941300
-
