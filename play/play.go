@@ -31,6 +31,15 @@ var Phone = Device{
       "GL_OES_compressed_ETC1_RGB8_texture",
       // com.kakaogames.twodin
       "GL_KHR_texture_compression_astc_ldr",
+      // com.sega.sonic4ep2thd
+      "GL_EXT_texture_compression_s3tc",
+      // com.sonicjump.sonicjump
+      "GL_AMD_compressed_3DC_texture",
+      "GL_AMD_compressed_ATC_texture",
+      "GL_ATI_texture_compression_atitc",
+      "GL_IMG_texture_compression_pvrtc",
+      // net.fishlabs.GalaxyonFire2THD
+      "GL_EXT_texture_compression_dxt1",
    },
    Library: []string{
       "android.test.mock",
@@ -363,3 +372,4 @@ const android_api = 31
 const gl_es_version = 0x30001
 
 const google_play_store = 82941300
+
